@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starbucks Coffee</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="shortcut icon" type="image/png" href="img/logo.png">
+</head>
+
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="index.html"><img src="img/logo.png" class="logo" alt="logo"></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="https://www.starbucks.co.id/card#reward">Rewards</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <h2>It's not just a coffee! <br> It's <span>Starbucks</span> </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sapiente, illum numquam quidem inventore autem.
+          Perspiciatis aperiam iste a, exercitationem similique obcaecati quidem, officiis vero eum ipsa ducimus quae
+          ullam.</p>
+        <a href="https://www.starbucks.co.id/">Learn More</a>
+      </div>
+      <div class="imgBox">
+        <img src="img/mocha frappuchino.png" class="strobucks" alt="">
+      </div>
+    </div>
+    <ul class="thumb">
+      <li><img src="img/charamel machiato.png" onclick="imgSlider('img/charamel machiato.png')" alt=""></li>
+      <li><img src="img/matcha tea.png" onclick="imgSlider('img/matcha tea.png')" alt=""></li>
+      <li><img src="img/nitro cold brew.png" onclick="imgSlider('img/nitro cold brew.png')" alt=""></li>
+      <li><img src="img/pink drink.png" onclick="imgSlider('img/pink drink.png')" alt=""></li>
+    </ul>
+    <ul class="sci">
+      <li><a href="https://www.instagram.com/dewiidda/"><img src="img/ig.png" alt=""></a></li>
+      <li><a href="https://www.linkedin.com/in/dewi-idda-rohmana/"><img src="img/linkedin.png" alt=""></a></li>
+      <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+    </ul>
+  </section>
+  <script type="text/javascript">
+    function imgSlider(anything) {
+      document.querySelector('.strobucks').src = anything;
+    }
+  </script>
+</body>
+
+</html>
